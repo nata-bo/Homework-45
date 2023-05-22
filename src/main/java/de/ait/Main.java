@@ -13,5 +13,8 @@ public class Main {
         //isStartingFromCapital("apple") -> false;
         //Напишите тесты для данных методов.
 
+        System.out.println(StringTools.firstToUpperCase("apple"));
+        System.out.println(StringTools.isStartingFromCapital("apple"));
+        System.out.println(StringTools.isStartingFromCapital("Apple"));
     }
 }
